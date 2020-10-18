@@ -18,7 +18,14 @@ npm install -g serverless
 
 ### How to run the dev enviroment
 
-The serverless-offline node module allows you to run the server locally with the following command:
+* After cloning the project, navigate in a terminal to the server folder and run
+
+```
+npm i
+```
+This will install all the required libraries and dependencies
+
+* The serverless-offline node module allows you to run the server locally with the following command:
 
 ```
 serverless offline
