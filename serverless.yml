@@ -1,0 +1,24 @@
+
+
+service: rates-informer
+
+app: rates-informer-app
+org: dayan1813
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+functions:
+  getExchangeRates:
+    handler: handler.getExchangeRates
+    events:
+      - http:
+          path: exchange-rates
+          method: get
+          cors: true
+
+plugins:
+  - serverless-offline

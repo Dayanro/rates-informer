@@ -1,0 +1,27 @@
+{
+  "name": "rates-informer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dayanro/rates-informer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dayanro/rates-informer/issues"
+  },
+  "homepage": "https://github.com/Dayanro/rates-informer#readme",
+  "dependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3",
+    "supertest": "^5.0.0"
+  }
+}
